@@ -16,12 +16,96 @@
   }
 }
 
+/* styles/global.css */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
+
+/* Header Styles */
+.header {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+.header nav ul li a:hover {
+  color: #000;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer address {
+  font-style: normal;
+}
+
+/* Subscription Form Styles */
+.subscription-form {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.subscription-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.subscription-form form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription-form input[type='email'] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.subscription-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subscription-form button:hover {
+  background-color: #0056b3;
+}
+
