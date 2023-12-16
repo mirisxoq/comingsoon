@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Coming Soon</title>
+        <title>Ollayor</title>
         <meta name="description" content="Your website's coming soon page" />
         <link rel="icon" href="/favicon.ico" />
         {/* Import the Inter font */}
